@@ -1,0 +1,44 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   test.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: pavorapa <pavorapa@student.42.fr>          #+#  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025-03-24 15:13:09 by pavorapa          #+#    #+#             */
+/*   Updated: 2025-03-24 15:13:09 by pavorapa         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+Plan for implementation 
+
+1. Parse input Lire les nombres entree et les stocker dans la stack A
+
+2. Sort the Stack Implementer un algo de tri avec les operation accepter 
+
+3. Output the Operation Imprimer la sequence d'operation lier a la stack trier 
+
+Liste des operations 
+
+sa Echanger les 2 premiers element de la stack A 
+
+sb Echanger les 2 premeirs element de la stack B
+
+ss Perform sa et sb en meme temps 
+
+pa Pousse le premier element de la stack A vers la stack B
+
+pb Pousse le premier element de la stack B vers la stack A 
+
+ra Prend le premier element de la stack A et le place a la fin en poussant les autres elements vers le haut 
+
+rb Prend le premier element de la stack B et le place a la fin en poussant les autres elements vers le haut 
+
+rr Perform ra et rb en meme temps 
+
+rra Prend le dernier element de la stack A et le place en haut en descendant les autres elements vers le bas 
+
+rrb Prend le dernier elemnet de la stack B et le place en haut en descendant les autres elements vers le bas 
+
+rrr Perform rra et rrb en meme temps 
+
